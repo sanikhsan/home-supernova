@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#00897B"/>
+  <title>Supernova Studio</title>
+  <meta name="description" content="Studio Musik Supernova"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/icon512.jpg" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/icon512.jpg">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/icon.css">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+</head>
+<body>
+
+  <header>
+  <!-- Navigasi -->
+    <nav class="black" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="/" class="brand-logo" id="logo-container">Supernova</a>
+        <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+        
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+      </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <div id="headslider" class="headslider"></div>
+  </header>
+
+  <main>
+    <div class="main-body" id="body-content"></div>
+  </main>
+
+  <footer>
+    <div class="main-footer" id="footer-content"></div>
+  </footer>
+  
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/sw.js"></script>
+</body>
+</html>

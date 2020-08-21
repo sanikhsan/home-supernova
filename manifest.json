@@ -1,0 +1,23 @@
+{
+    "name": "Supernova Studio Indramayu",
+    "short_name": "Supernova",
+    "description": "Supernova Web Apps",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+          "src": "/img/icon192.png",
+          "type": "image/png",
+          "sizes": "192x192",
+          "purpose": "any maskable"
+        },
+        {
+          "src": "/img/icon512.png",
+          "type": "image/png",
+          "sizes": "512x512",
+          "purpose": "any maskable"
+        }
+      ]
+}
